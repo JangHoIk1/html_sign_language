@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+.navbar {
+
+  display : flex; 
+  /* // 한줄에 나란히 */
+  justify-content:space-between;
+  /* 빈공간에 넣기 */
+  align-items:center;
+  background-color: #263343;
+  padding : 50px 12px;
+  /* 위아래30 양옆 12 */
+}
+.navbar_logo{
+
+  font-size:24px;
+  color : #d49466;
+}
+
+.navbar_logo i{
+  color : #d49466;
+}
+
+.navbar_menu{
+  display:flex;
+  list-style:none;
+  padding-left:20px;
+  /* 가운데로 정렬하기위해 padding 값을 0으로 */
+}
+.navbar_menu li{
+  padding: 8px 30px;
+}
+
+
+.search {
+  position: relative;
+  width: 150px;
+  padding-right:200px;
+}
+
+input {
+  width: 80%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.sign_up a{
+  color:black;
+}
+.login a{
+  color:black;
+}
+
+
+/* 여기까지 header의 nav.css */
+
