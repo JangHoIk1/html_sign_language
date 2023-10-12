@@ -2,10 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="./css/Host_meeting.css">
+  <title>sign-language</title>
+  <script src="https://kit.fontawesome.com/70917d4988.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="navbar_logo">
+      <i class="fab fa-accusoft"></i>
+      <a href="index.html">수어 플랫폼</a>
+    </div>
+
+    <nav class="navbar_menu">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/Call.html">Call</a></li>
+      <li><a href="/Study.html">Studypage</a></li>
+      <li><a href="/Team.html">Team</a></li>
+      <div class="search">
+        <input type="text" placeholder="검색어 입력">
+      </div>
+
+      
+      <button class="sign_up">
+        <a href="">회원가입</a>
+      </button>
   
+      <button class="login">
+        <a href="">로그인</a>
+      </button>
+  
+    </nav>
+  </nav>
+
+  <!-- nav 코드 -->
+
+  <div class="meeting-box">
+    <div class="Host-meeting">
+      <h2>Host meeting</h2>
+    </div>
+    <input class="enter-name" type="text" id="meeting-id" placeholder="Enter your Name">
+  
+    <div>
+      <button id="Host-button">Host</button>
+      <button id="cancel-button">Cancel</button>
+    </div>
+    
+  </div>
+
+
+
 </body>
 </html>
